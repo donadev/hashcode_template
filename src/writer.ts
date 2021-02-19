@@ -3,9 +3,11 @@ import { Solution } from './solver'
 
 const write = (solution : Solution, file : string) => {
     const data : string = "test+"
+    //TODO: map the solution to the output file according to the specs of the problem
     fs.writeFileSync(file, data)
 }
 
+//caches the best score to file
 export const writeScore = (score : number, file : string) => {
     fs.writeFileSync(file, `${score}`)
 }

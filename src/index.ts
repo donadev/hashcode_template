@@ -12,7 +12,7 @@ const output_dir = "solutions"
 const scores_dir = "best_scores"
 const inputs_path = path.join(__dirname, "..", input_dir)
 
-
+//reads every input case, parses the content and computes the solution and the score. If the score is better than the best cached score, saves the output to file
 fs.readdir(inputs_path, (err, files) => {
     if(err) return console.error(err)
     files.forEach(file => {
