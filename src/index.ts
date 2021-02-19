@@ -22,9 +22,9 @@ fs.readdir(inputs_path, (err, files) => {
         const data = parse(input_path)
         const solution = solve(data)
         const points = score(solution)
-        const bestScore = readScore(score_path)
-        console.log(`Case ${file}: solution score`, points, "best score", bestScore)
-        if(points > bestScore) {
+        const best_score = readScore(score_path)
+        console.log(`Case ${file}: solution score`, points, "best score", best_score)
+        if(points > best_score) {
             write(solution, output_path)
             writeScore(points, score_path)
         }
