@@ -1,7 +1,7 @@
 
-import parse, {readScore} from './parser'
+import parse, {read_score} from './parser'
 import score from './scorer'
-import write, {writeScore} from './writer'
+import write, {write_score} from './writer'
 import solve from './solver'
 import * as path from 'path'
 import * as fs from 'fs'
@@ -21,12 +21,12 @@ fs.readdir(inputs_path, (err, files) => {
         const score_path = input_path.replace(input_dir, scores_dir).replace(".in", ".score")
         const data = parse(input_path)
         const solution = solve(data)
-        const points = score(solution)
-        const best_score = readScore(score_path)
+        const points = score(data, solution)
+        const best_score = read_score(score_path)
         console.log(`Case ${file}: solution score`, points, "best score", best_score)
         if(points > best_score) {
             write(solution, output_path)
-            writeScore(points, score_path)
+            write_score(points, score_path)
         }
     })
 })

@@ -8,7 +8,7 @@ const write = (solution : Solution, file : string) => {
 }
 
 //caches the best score to file
-export const writeScore = (score : number, file : string) => {
+export const write_score = (score : number, file : string) => {
     fs.writeFileSync(file, `${score}`)
 }
 
