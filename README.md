@@ -78,7 +78,9 @@ cd hashcode_starter && npm i
     ```sh
     npm run start
     ```
-9. That's it! You will find on **outputs/** the output files as ```.out``` files, and on **scores/** the scores of the files as ```.score``` files. 
+9. That's it! You will find:
+    - on **outputs/**: the output files as ```.out``` files;
+    - on **scores/** the scores of the solutions as ```.score``` files. 
 
 NB: The script saves, for every input file, the solution only if the computed score is greater or equal than the saved on for that file.
 
