@@ -17,7 +17,12 @@ You have a few hours to solve the problem and nothing sucks more than starting l
 
 This repository is here for you. 😼
 
-You can create the **file reader/writer**, the **scorer**, and your **data model** in minutes, using the remaining time only to find the __top class algorithm__ that will make you excel in the competition! 🏆
+You can create the: 
+- **file reader/writer**, 
+- **scorer**,
+- **data model** 
+
+in minutes, using the remaining time only to find the __top class algorithm__ that will make you excel in the competition! 🏆
 
 ## Installing
 ... is as simple as
