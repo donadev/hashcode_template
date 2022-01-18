@@ -3,6 +3,7 @@
 The simple template to excel on Google Hashcode Competition
 
 - [Why?](#why)
+- [Installing](#installing)
 - [How to use](#how-to-use)
 - [Contributing](#contributing)
 - [License](#license)
@@ -26,9 +27,10 @@ in minutes, using the remaining time only to find the __top class algorithm__ th
 
 ## Installing
 ... is as simple as
-```
-git clone https://github.com/donadev/hashcode_starter.git
-cd hashcode_starter && npm i
+```sh
+gh repo create <problem-name> --template="https://github.com/donadev/hashcode_template.git"
+cd <problem-name>
+npm i
 ```
 
 
@@ -89,8 +91,7 @@ NB: The script saves, for every input file, the solution only if the computed sc
 1. Clone this repo
 2. Create a branch: `git checkout -b your-feature`
 3. Make some changes
-4. Test your changes by [running your local version](#developing-locally)
-5. Push your branch and open a Pull Request
+4. Push your branch and open a Pull Request
 
 
 ## License
