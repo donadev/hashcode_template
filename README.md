@@ -1,4 +1,4 @@
-# hashcode_starter
+# hashcode_template
 
 The simple template to excel on Google Hashcode Competition
 
