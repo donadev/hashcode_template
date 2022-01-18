@@ -28,9 +28,7 @@ in minutes, using the remaining time only to find the __top class algorithm__ th
 ## Installing
 ... is as simple as
 ```sh
-gh repo create <problem-name> --template="https://github.com/donadev/hashcode_template.git"
-cd <problem-name>
-npm i
+npm install
 ```
 
 
